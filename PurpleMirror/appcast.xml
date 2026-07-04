@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>PurpleMirror</title>
+        <description>PurpleMirror release feed. Each &lt;item&gt; describes one shipped build; Sparkle compares &lt;sparkle:shortVersionString&gt; against the running app and offers the newest one.</description>
+        <link>https://github.com/bronty13/PhantomLives/tree/main/PurpleMirror</link>
+        <language>en</language>
+        <!--
+          Publish a release with ./Scripts/release.sh (see RELEASING.md): it
+          builds + notarizes + zips the app, EdDSA-signs the zip, creates a
+          tagged GitHub release, and prepends a new <item> here, then pushes.
+          The moment the push lands, existing installs see the update.
+
+          Sparkle reads this via raw.githubusercontent.com — no GitHub Pages.
+
+          DO NOT hand-edit a shipped <item>: its version + EdDSA signature pair
+          is part of the trust chain. Add new items above older ones.
+
+          (No <item> yet — the first Sparkle-enabled build is the baseline.)
+        -->
+        <item>
+            <title>PurpleMirror 1.19.0</title>
+            <pubDate>Fri, 03 Jul 2026 04:16:25 +0000</pubDate>
+            <sparkle:version>1292.cfcc03ae</sparkle:version>
+            <sparkle:shortVersionString>1.19.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/PhantomLives/releases/download/purplemirror-v1.19.0/PurpleMirror-1.19.0.zip"
+                sparkle:edSignature="I57Q5zsp/SPTBGNa57OOZOOeWaH0Csdc/RH+rF6r3C/AKEIhfbfni3bhZgGUtr6HZfbO1dDwm9NlrcVPeuxpBw==" length="2560830"
+                type="application/octet-stream" />
+        </item>
+        <item>
+            <title>PurpleMirror 1.18.0</title>
+            <pubDate>Thu, 02 Jul 2026 13:32:36 +0000</pubDate>
+            <sparkle:version>1271.a23f2a4a</sparkle:version>
+            <sparkle:shortVersionString>1.18.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/PhantomLives/releases/download/purplemirror-v1.18.0/PurpleMirror-1.18.0.zip"
+                sparkle:edSignature="6SVy3xorSGpTeCvSoUQzM8TOkkqx6YPuzRBUjH3E8dMgbfPuoDcV8GZvmC7/wVnxvgndfDFjD9ojxJqJZb9uAg==" length="2547600"
+                type="application/octet-stream" />
+        </item>
+    </channel>
+</rss>
