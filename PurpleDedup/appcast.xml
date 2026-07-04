@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>PurpleDedup</title>
+        <description>PurpleDedup release feed. Each &lt;item&gt; describes one shipped build; Sparkle compares the &lt;sparkle:shortVersionString&gt; against the running app and offers the newest one.</description>
+        <link>https://github.com/bronty13/PhantomLives/tree/main/PurpleDedup</link>
+        <language>en</language>
+        <!--
+          To publish a new release:
+            1. Run `./build-app.sh` (then ./Scripts/release.sh) — see RELEASING.md.
+            2. The release script produces PurpleDedup-<version>.zip + a signed
+               EdDSA signature, prepends an <item> below, and uploads the zip
+               to a GitHub Release.
+            3. Commit + push appcast.xml.
+
+          Sparkle reads this file via raw.githubusercontent.com, so the moment
+          the push lands users on the previous version see an update prompt
+          on next launch (or up to 24h later if they have automatic checks
+          enabled).
+
+          DO NOT hand-edit existing <item> entries — once shipped, an entry's
+          version + signature pair is part of the trust chain. Add new entries
+          above old ones; keep the last few historical entries for users who
+          skip versions.
+        -->
+        <item>
+            <title>PurpleDedup 0.22.3 (1.0.172)</title>
+            <pubDate>Sun, 10 May 2026 07:19:40 +0000</pubDate>
+            <sparkle:version>172.8db9404</sparkle:version>
+            <sparkle:shortVersionString>1.0.172</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[First fully-notarized release. Future releases ship Gatekeeper-clean — opening the .zip on a fresh Mac no longer triggers the "developer cannot be verified" dialog. Pipeline change only; no app code changes.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/PhantomLives/releases/download/purplededup-v1.0.172/PurpleDedup-1.0.172.zip"
+                sparkle:edSignature="KIBdUHsSBYoS4Nb6MPL2MwDSDTSHF2L6D8OL7tkZ4tZsX8a2q8yVbh1pfkjkTcJQTAURYV2+y5JJdoOjdROMBA==" length="6710719"
+                type="application/octet-stream" />
+        </item>
+        <item>
+            <title>PurpleDedup 0.22.2 (1.0.169)</title>
+            <pubDate>Sun, 10 May 2026 05:40:51 +0000</pubDate>
+            <sparkle:version>169.0a3a629</sparkle:version>
+            <sparkle:shortVersionString>1.0.169</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Fixes a hang on cluster click for Photos library scans on large libraries. PhotoKit metadata cache used the file's parent directory as the cache key, but Photos shards `originals/` into 16 subdirectories — every cluster click switched shards and forced a full re-enumeration of the asset list (potentially 50k+ assets through Photos.sqlite XPC). Now keyed on the .photoslibrary bundle path; one index build per library.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/PhantomLives/releases/download/purplededup-v1.0.169/PurpleDedup-1.0.169.zip"
+                sparkle:edSignature="sEs3yotIISDP4qytwLc0JxaQQzR0czVJkrpy8i4ihUW6OkYehiJUKWk9C7JwXPHuSXMFiUJdG0WmMCM5z2JYAw==" length="6742422"
+                type="application/octet-stream" />
+        </item>
+        <item>
+            <title>PurpleDedup 0.22.1 (1.0.167)</title>
+            <pubDate>Sun, 10 May 2026 05:36:04 +0000</pubDate>
+            <sparkle:version>167.b3cedd2</sparkle:version>
+            <sparkle:shortVersionString>1.0.167</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Cancel reliability hotfix. Cancel during PhotoKit filter resolution now takes effect at the next source boundary instead of waiting for the whole library to resolve. Force Quit button appears reliably at 4 s after Cancel even when no progress events are firing. See CHANGELOG.md.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/PhantomLives/releases/download/purplededup-v1.0.167/PurpleDedup-1.0.167.zip"
+                sparkle:edSignature="bhKf89+DYz8xlw1ZAtdesEsI+Lm5hep84zP+D5hqJRrIeICn91CoejgmJEPDJ+c96yBtZnqTNXBA77Dfmiq2Aw==" length="6743458"
+                type="application/octet-stream" />
+        </item>
+        <item>
+            <title>PurpleDedup 0.22.0 (1.0.165)</title>
+            <pubDate>Sun, 10 May 2026 05:26:28 +0000</pubDate>
+            <sparkle:version>165.56ae280</sparkle:version>
+            <sparkle:shortVersionString>1.0.165</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Cluster rows redesigned with 36×36 thumbnails + count badges + accent-coloured reclaim metric inline. Smith-Waterman video alignment catches videos with substantially-clipped intros that the bounded sliding window missed. Plus a long internal refactor: ContentView decomposed into 11 focused files, all string-prefix cluster IDs replaced with type-safe ClusterKind. See CHANGELOG.md.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/PhantomLives/releases/download/purplededup-v1.0.165/PurpleDedup-1.0.165.zip"
+                sparkle:edSignature="/hGLJ9JQH0bbCKJB9Yu1gzfLBgOGcC9kNCSY2P1zzt4yJxe/x7Bl4sB2dyI+MNgvF8Bk2AxPnrinOj0Bm0adDw==" length="6740083"
+                type="application/octet-stream" />
+        </item>
+        <item>
+            <title>PurpleDedup 0.21.3 (1.0.156)</title>
+            <pubDate>Sun, 10 May 2026 04:33:19 +0000</pubDate>
+            <sparkle:version>156.aea1092</sparkle:version>
+            <sparkle:shortVersionString>1.0.156</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Cluster-kind chip filters in the sidebar — toggle Exact / Photos / Videos / Bursts / Rotated visibility with a tap. Empty kinds auto-hidden so the chip row stays compact. See CHANGELOG.md.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/PhantomLives/releases/download/purplededup-v1.0.156/PurpleDedup-1.0.156.zip"
+                sparkle:edSignature="ZQLQkJFiOeOUmZ8IAd+65aLqt90lSOlXDDPkqrcV7/rho0o8PQmWRFKxXZjtTqQpnlY/x0pxqnjT4wqFT8TPDQ==" length="6741338"
+                type="application/octet-stream" />
+        </item>
+        <item>
+            <title>PurpleDedup 0.21.2 (1.0.154)</title>
+            <pubDate>Sun, 10 May 2026 04:28:13 +0000</pubDate>
+            <sparkle:version>154.06e052a</sparkle:version>
+            <sparkle:shortVersionString>1.0.154</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Bug fix: hidden Photos assets no longer leak into scans when no filter is set (the walker can't see Photos.app's hidden flag). Plus: prominent reclaimable-bytes metric in the sidebar, "Suggested keep" vs "KEEP" pill distinction for engine recommendations vs manual overrides, .thinMaterial vibrancy on the Photos hint banner, brighter metadata diff highlight. See CHANGELOG.md.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/PhantomLives/releases/download/purplededup-v1.0.154/PurpleDedup-1.0.154.zip"
+                sparkle:edSignature="uplWvnNpnxAYMcnQrfwAPPsFXmUB2R9wLF1C5b6WlVyKWGbG/TdJS9rTTi7Q7cHxaFX8ksUd6x1j0c2dxEFeCg==" length="6722875"
+                type="application/octet-stream" />
+        </item>
+        <item>
+            <title>PurpleDedup 0.21.1 (1.0.148)</title>
+            <pubDate>Sun, 10 May 2026 03:57:16 +0000</pubDate>
+            <sparkle:version>148.f0075cb</sparkle:version>
+            <sparkle:shortVersionString>1.0.148</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Bug fix: drops SUEnableInstallerLauncherService from Info.plist. Setting it true on a non-sandboxed app triggered "Unable to Check For Updates" in 1.0.143/1.0.145. Existing installs of those versions need a manual download once; Sparkle works normally from 1.0.148 onward. ComparisonView decomposed into focused components (no behavior change).]]></description>
+            <enclosure
+                url="https://github.com/bronty13/PhantomLives/releases/download/purplededup-v1.0.148/PurpleDedup-1.0.148.zip"
+                sparkle:edSignature="+Fjd3zvbwkB9NvQJSavaNSKgQDualRLgTeetZeBS8xNqc6cde0QCTSrNtXcfPObg3hC/EHbHx+6W02s6hBRHDA==" length="6712516"
+                type="application/octet-stream" />
+        </item>
+        <item>
+            <title>PurpleDedup 0.21.0 (1.0.145)</title>
+            <pubDate>Sun, 10 May 2026 03:30:30 +0000</pubDate>
+            <sparkle:version>145.5e5dd92</sparkle:version>
+            <sparkle:shortVersionString>1.0.145</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[FFmpeg sidecar for MKV / AVI / WMV / WebM (opt-in). Settings → Engine → "Use system FFmpeg for unsupported video formats". Requires `brew install ffmpeg`. See CHANGELOG.md.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/PhantomLives/releases/download/purplededup-v1.0.145/PurpleDedup-1.0.145.zip"
+                sparkle:edSignature="x8CAyNmQBzw/LCvJRsM94dJa87nvxWk0U4fg/4ian4dy7ehd+smlcH35waieBoXP/tA2XjQcPjpDdGbegbsmAg==" length="6723068"
+                type="application/octet-stream" />
+        </item>
+        <item>
+            <title>PurpleDedup 0.20.0 (1.0.143)</title>
+            <pubDate>Sun, 10 May 2026 03:16:09 +0000</pubDate>
+            <sparkle:version>143.282f762</sparkle:version>
+            <sparkle:shortVersionString>1.0.143</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Sparkle in-app auto-updates. People filter for Photos library sources. Reverse-geocoded GPS in metadata. pHash + dHash OR-of-distances clustering. "In Photos" badge for non-exact clusters. CLI Photos filter. See CHANGELOG.md for the full list.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/PhantomLives/releases/download/purplededup-v1.0.143/PurpleDedup-1.0.143.zip"
+                sparkle:edSignature="hOD6Lz2jAiFet7PWggZcfPCcS7rHGuQFA6ZLKCT06vkyUKYAAfLXUOB2bRgBiItwuOpoHveE7NMd2fcp5WCDDQ==" length="6673364"
+                type="application/octet-stream" />
+        </item>
+    </channel>
+</rss>
