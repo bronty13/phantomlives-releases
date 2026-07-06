@@ -3,7 +3,7 @@
     <channel>
         <title>PurpleMark</title>
         <description>PurpleMark release feed — native macOS Markdown editor.</description>
-        <link>https://github.com/bronty13/PhantomLives/tree/main/PurpleMark</link>
+        <link>https://github.com/bronty13/phantomlives-releases</link>
         <language>en</language>
         <!-- Scripts/release.sh inserts each new <item> immediately after this
              marker (newest first). Do not hand-edit sparkle:edSignature. -->
@@ -16,7 +16,7 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[See CHANGELOG.md for details.]]></description>
             <enclosure
-                url="https://github.com/bronty13/PhantomLives/releases/download/purplemark-v1.1.808/PurpleMark-1.1.808.dmg"
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purplemark-v1.1.808/PurpleMark-1.1.808.dmg"
                 sparkle:edSignature="xQAdwnV+KB/NZGk4nQtQAkT6sLPltiDJxGbU+IE8hKIyZ3lfQDqJpSoGUTA/WQemSw65JTPVz/vHwG+C+KtYAw==" length="4697090"
                 type="application/octet-stream" />
         </item>
@@ -28,7 +28,7 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[See CHANGELOG.md for details.]]></description>
             <enclosure
-                url="https://github.com/bronty13/PhantomLives/releases/download/purplemark-v1.0.740/PurpleMark-1.0.740.dmg"
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purplemark-v1.0.740/PurpleMark-1.0.740.dmg"
                 sparkle:edSignature="G/QmeoyY9uu1cspVgK4XqRFp4E1iiO12n3H3Cl+gCOUvBERDyR7Qr03Wpp1v9NJ+UudCyqZLVqbTwTNIqjpdBg==" length="4574754"
                 type="application/octet-stream" />
         </item>
