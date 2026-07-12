@@ -24,6 +24,18 @@
           skip versions.
         -->
         <item>
+            <title>PurpleDedup 0.24.0 (1.0.1478)</title>
+            <pubDate>Sun, 12 Jul 2026 15:33:38 +0000</pubDate>
+            <sparkle:version>1478.b057995c</sparkle:version>
+            <sparkle:shortVersionString>1.0.1478</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Self-maintaining hash cache (auto-prune + scoped loading + pdedup cache subcommands), honest reclaimable numbers for hard links (with a new badge), Live Photos stay paired when deleting, an Export report… HTML summary, faster scans of very large files and big video sets, and a built-in manual with search (Help menu, Cmd-?).]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purplededup-v1.0.1478/PurpleDedup-1.0.1478.zip"
+                sparkle:edSignature="2xBAuFP8+VJ6/+Tz/xe67FZI+xkcfZMIN3xSlk2CX9q/ImcrCSqTfeVFlNXQV31XqfL7R/1GYQuQLaOA1T4FCA==" length="7186022"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PurpleDedup 0.22.3 (1.0.172)</title>
             <pubDate>Sun, 10 May 2026 07:19:40 +0000</pubDate>
             <sparkle:version>172.8db9404</sparkle:version>
