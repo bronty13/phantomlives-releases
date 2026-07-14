@@ -21,18 +21,6 @@
                 type="application/octet-stream" />
         </item>
         <item>
-            <title>PurpleMark 1.1.1530</title>
-            <pubDate>Tue, 14 Jul 2026 22:01:55 +0000</pubDate>
-            <sparkle:version>1530.48a7a355</sparkle:version>
-            <sparkle:shortVersionString>1.1.1530</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<a href="https://github.com/bronty13/phantomlives-releases/releases/tag/purplemark-v1.1.1530">Release notes for PurpleMark 1.1.1530</a>]]></description>
-            <enclosure
-                url="https://github.com/bronty13/phantomlives-releases/releases/download/purplemark-v1.1.1530/PurpleMark-1.1.1530.dmg"
-                sparkle:edSignature="ZlgZNcsD2qvkYtRYXnSRDmqKJrHwLETzL701qDyiicGe9QS5SoVp8DljHSuI67niavXXvUfdUClCVcv+A+FLCg==" length="4772275"
-                type="application/octet-stream" />
-        </item>
-        <item>
             <title>PurpleMark 1.1.1314</title>
             <pubDate>Mon, 06 Jul 2026 17:31:23 +0000</pubDate>
             <sparkle:version>1314.0184cdb0</sparkle:version>
