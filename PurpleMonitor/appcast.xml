@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>PurpleMonitor</title>
+        <description>PurpleMonitor release feed. Each &lt;item&gt; describes one shipped build; Sparkle compares &lt;sparkle:shortVersionString&gt; against the running app and offers the newest one.</description>
+        <link>https://github.com/bronty13/PhantomLives/tree/main/PurpleMonitor</link>
+        <language>en</language>
+        <!--
+          Publish a release with ./Scripts/release.sh (see RELEASING.md) — in practice via
+          `./release-on-airy.sh PurpleMonitor` from the repo root, since releases are cut on
+          the runner. It builds + notarizes + zips the app, EdDSA-signs the zip, creates a
+          tagged GitHub release on the PUBLIC bronty13/phantomlives-releases repo, prepends a
+          new <item> here, and mirrors this file to that public repo.
+
+          Sparkle reads the MIRRORED copy via raw.githubusercontent.com. This file is the
+          source of truth; the public repo holds the served copy. The feed must never point
+          at the private monorepo — anonymous clients 404 and can never update again.
+
+          DO NOT hand-edit a shipped <item>: its version + EdDSA signature pair is part of
+          the trust chain. Add new items above older ones.
+
+          (No <item> yet — this item-less channel is the bootstrap. It exists so the very
+          first release's feed-reachability guard has a real 200 to fetch; release.sh adds
+          the first real item.)
+        -->
+    </channel>
+</rss>
