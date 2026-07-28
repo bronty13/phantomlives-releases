@@ -23,5 +23,17 @@
           first release's feed-reachability guard has a real 200 to fetch; release.sh adds
           the first real item.)
         -->
+        <item>
+            <title>PurpleMonitor 1.0.1644</title>
+            <pubDate>Tue, 28 Jul 2026 18:36:26 +0000</pubDate>
+            <sparkle:version>1644.84dacdfc</sparkle:version>
+            <sparkle:shortVersionString>1.0.1644</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purplemonitor-v1.0.1644/PurpleMonitor-1.0.1644.zip"
+                sparkle:edSignature="E1cyMgXlGb4/O+815zc4iX55KMsB7PAY1CKn3eVCsMfYvSdXkg7J9Ay96CI6PKQdB4A/PKC4H2U3ycGMlWkHDA==" length="2356208"
+                type="application/octet-stream" />
+        </item>
     </channel>
 </rss>
