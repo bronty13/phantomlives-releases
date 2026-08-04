@@ -13,5 +13,17 @@
              repo, which is what the app actually fetches. The monorepo is
              private — a feed pointing here 404s for every user, forever. -->
         <!-- ITEMS -->
+        <item>
+            <title>PurpleDiary 1.0.1720</title>
+            <pubDate>Tue, 04 Aug 2026 18:18:53 +0000</pubDate>
+            <sparkle:version>1720.dd10f7e8</sparkle:version>
+            <sparkle:shortVersionString>1.0.1720</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<a href="https://github.com/bronty13/phantomlives-releases/releases/tag/purplediary-v1.0.1720">Release notes for PurpleDiary 1.0.1720</a>]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purplediary-v1.0.1720/PurpleDiary-1.0.1720.dmg"
+                sparkle:edSignature="9nhgsP/yeiUM1afPW2rnvrT3HgcpHn+pOajo4CMup30zJOXTsqExhBaUJQF1bMoKqS3Y+x0qxCazvO5cd1T/Cw==" length="7542308"
+                type="application/octet-stream" />
+        </item>
     </channel>
 </rss>
