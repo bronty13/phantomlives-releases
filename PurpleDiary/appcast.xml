@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>PurpleDiary</title>
+        <description>PurpleDiary release feed — a private, encrypted journal for macOS.</description>
+        <link>https://github.com/bronty13/phantomlives-releases</link>
+        <language>en</language>
+        <!-- Scripts/release.sh inserts each new <item> immediately after this
+             marker (newest first). Do not hand-edit sparkle:edSignature.
+
+             This file is the authoring copy; release.sh mirrors it to
+             PurpleDiary/appcast.xml in the PUBLIC bronty13/phantomlives-releases
+             repo, which is what the app actually fetches. The monorepo is
+             private — a feed pointing here 404s for every user, forever. -->
+        <!-- ITEMS -->
+    </channel>
+</rss>
