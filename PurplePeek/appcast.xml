@@ -22,5 +22,17 @@
           feed as "no update available", which is the correct answer until the first
           release lands.
         -->
+        <item>
+            <title>PurplePeek 1.0.1758</title>
+            <pubDate>Mon, 17 Aug 2026 14:47:10 +0000</pubDate>
+            <sparkle:version>1758.a0eaa95b</sparkle:version>
+            <sparkle:shortVersionString>1.0.1758</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purplepeek-v1.0.1758/PurplePeek-1.0.1758.zip"
+                sparkle:edSignature="mC9fCCqcOAiSoj231BIsdFA3DgC5i4r/+e8pHcVHIOJK0RDS0GVTRzBHM8WzQxqSiuRen3PMK0h7l+RAK4VtDQ==" length="4283857"
+                type="application/octet-stream" />
+        </item>
     </channel>
 </rss>
