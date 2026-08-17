@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>PurplePeek</title>
+        <description>PurplePeek release feed. Each &lt;item&gt; describes one shipped build; Sparkle compares &lt;sparkle:shortVersionString&gt; against the running app and offers the newest one.</description>
+        <link>https://github.com/bronty13/PhantomLives/tree/main/PurplePeek</link>
+        <language>en</language>
+        <!--
+          THIS FILE IS THE SOURCE OF TRUTH, BUT NOT THE FILE SPARKLE READS. The monorepo is
+          private, so its raw.githubusercontent URLs 404 for an installed app. release.sh
+          mirrors this file into the PUBLIC bronty13/phantomlives-releases repo, and the
+          app's SUFeedURL points THERE. Never repoint a feed at this repo — that is the
+          stranding failure documented in docs/update-stranding.md.
+
+          Publish a release with ./Scripts/release.sh (see RELEASING.md) — in practice via
+          `./release-on-airy.sh PurplePeek` from the repo root, since releases are cut on
+          the runner. It builds + notarizes + zips the app, EdDSA-signs the zip, creates a
+          tagged GitHub release on the public repo, prepends an <item> here, commits it, and
+          mirrors it. Do not hand-edit the items below.
+
+          No <item> yet: PurplePeek has never been released. Sparkle treats an item-less
+          feed as "no update available", which is the correct answer until the first
+          release lands.
+        -->
+    </channel>
+</rss>
