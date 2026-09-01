@@ -9,7 +9,8 @@
   release-feed-guard.sh, verify-update-loop.sh and UpdaterViewModel all check
   for exactly that.
 
-  No <item> yet: PurplePath has never been released.
+  No release entries yet: PurplePath has never been released. (Avoiding the
+  literal element name here — tooling greps this file for it.)
 -->
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
