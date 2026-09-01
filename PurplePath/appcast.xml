@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Sparkle appcast for PurplePath.
+
+  SOURCE OF TRUTH lives here in the private monorepo; `Scripts/release.sh`
+  mirrors it into the PUBLIC bronty13/phantomlives-releases repo, which is what
+  installed apps actually fetch. An appcast URL pointing at the private repo
+  404s for every anonymous client and strands every install permanently —
+  release-feed-guard.sh, verify-update-loop.sh and UpdaterViewModel all check
+  for exactly that.
+
+  No <item> yet: PurplePath has never been released.
+-->
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>PurplePath</title>
+    <link>https://raw.githubusercontent.com/bronty13/phantomlives-releases/main/PurplePath/appcast.xml</link>
+    <description>Daily media intake, organization and day reports.</description>
+    <language>en</language>
+  </channel>
+</rss>
