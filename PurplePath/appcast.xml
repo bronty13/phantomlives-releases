@@ -19,6 +19,18 @@
     <description>Daily media intake, organization and day reports.</description>
     <language>en</language>
         <item>
+            <title>PurplePath 1.0.2013</title>
+            <pubDate>Thu, 10 Sep 2026 18:59:14 +0000</pubDate>
+            <sparkle:version>2013.dd07386c</sparkle:version>
+            <sparkle:shortVersionString>1.0.2013</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purplepath-v1.0.2013/PurplePath-1.0.2013.zip"
+                sparkle:edSignature="0dh90XicaSwsbRC7NN7aWXLOAF7mI0uroU24G/JyT1MYB4j78RzDpZdDmdDftrdk+JKxt8hlWyG+J9qx5YTzAA==" length="8619721"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PurplePath 1.0.2008</title>
             <pubDate>Thu, 10 Sep 2026 18:46:35 +0000</pubDate>
             <sparkle:version>2008.ff664889</sparkle:version>
