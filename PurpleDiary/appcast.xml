@@ -14,6 +14,18 @@
              private — a feed pointing here 404s for every user, forever. -->
         <!-- ITEMS -->
         <item>
+            <title>PurpleDiary 1.0.2219</title>
+            <pubDate>Tue, 15 Sep 2026 19:06:32 +0000</pubDate>
+            <sparkle:version>2219.ecac0bb9</sparkle:version>
+            <sparkle:shortVersionString>1.0.2219</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<a href="https://github.com/bronty13/phantomlives-releases/releases/tag/purplediary-v1.0.2219">Release notes for PurpleDiary 1.0.2219</a>]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purplediary-v1.0.2219/PurpleDiary-1.0.2219.dmg"
+                sparkle:edSignature="WvXoBkc5fZQIVFiMvDo7+1Z9fCzk2Nz5b/KhyG02Vcm2tcAdWZDyPgI8XroZmzUjuPp+Ok81cPjuo74GWIeLDQ==" length="6454407"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PurpleDiary 1.0.1720</title>
             <pubDate>Tue, 04 Aug 2026 18:18:53 +0000</pubDate>
             <sparkle:version>1720.dd10f7e8</sparkle:version>
