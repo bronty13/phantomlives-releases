@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>PurpleFlat</title>
+        <description>PurpleFlat release feed. Each &lt;item&gt; describes one shipped build; Sparkle compares the &lt;sparkle:shortVersionString&gt; against the running app and offers the newest one.</description>
+        <link>https://github.com/bronty13/PhantomLives/tree/main/PurpleFlat</link>
+        <language>en</language>
+        <!--
+          Published with `./release-on-airy.sh PurpleFlat` from the repo root; the
+          wrapper runs Scripts/release.sh on the runner, which prepends an <item>
+          here, uploads the zip to the PUBLIC bronty13/phantomlives-releases repo and
+          mirrors this file there (Sparkle fetches it via raw.githubusercontent.com).
+
+          DO NOT hand-edit existing <item> entries — once shipped, an entry's version +
+          signature pair is part of the trust chain. New entries go above old ones.
+        -->
+    </channel>
+</rss>
