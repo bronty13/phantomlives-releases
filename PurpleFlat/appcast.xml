@@ -14,5 +14,17 @@
           DO NOT hand-edit existing <item> entries — once shipped, an entry's version +
           signature pair is part of the trust chain. New entries go above old ones.
         -->
+        <item>
+            <title>PurpleFlat 1.0.2363</title>
+            <pubDate>Sat, 19 Sep 2026 12:20:27 +0000</pubDate>
+            <sparkle:version>2363.142fad0d</sparkle:version>
+            <sparkle:shortVersionString>1.0.2363</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purpleflat-v1.0.2363/PurpleFlat-1.0.2363.zip"
+                sparkle:edSignature="9ztDlY5EFFbaw1YmSu3Rs8kc4WKyoWLInRX72fTG5MSYxvhlJj7/ZzifINqGnCDtDSAxnui1kgh4iQetWIhNDg==" length="3859724"
+                type="application/octet-stream" />
+        </item>
     </channel>
 </rss>
