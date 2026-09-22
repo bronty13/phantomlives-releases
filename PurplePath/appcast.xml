@@ -9,8 +9,8 @@
   release-feed-guard.sh, verify-update-loop.sh and UpdaterViewModel all check
   for exactly that.
 
-  No release entries yet: PurplePath has never been released. (Avoiding the
-  literal element name here — tooling greps this file for it.)
+  Release entries follow, newest first; release.sh prepends one per release.
+  (Avoiding the literal element name here — tooling greps this file for it.)
 -->
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
@@ -18,6 +18,18 @@
     <link>https://raw.githubusercontent.com/bronty13/phantomlives-releases/main/PurplePath/appcast.xml</link>
     <description>Daily media intake, organization and day reports.</description>
     <language>en</language>
+        <item>
+            <title>PurplePath 1.0.2445</title>
+            <pubDate>Tue, 22 Sep 2026 06:29:30 +0000</pubDate>
+            <sparkle:version>2445.791ce346</sparkle:version>
+            <sparkle:shortVersionString>1.0.2445</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purplepath-v1.0.2445/PurplePath-1.0.2445.zip"
+                sparkle:edSignature="4zHl7NL1A0pb8jIeUZyFCkqIrtDYVQTa7ZzCM2bjWPogJZNGVrNEluDWti99m50HCKolIYRzksuq9OxIstUBCQ==" length="14083729"
+                type="application/octet-stream" />
+        </item>
         <item>
             <title>PurplePath 1.0.2438</title>
             <pubDate>Tue, 22 Sep 2026 04:25:37 +0000</pubDate>
