@@ -9,6 +9,18 @@
              marker (newest first). Do not hand-edit sparkle:edSignature. -->
         <!-- ITEMS -->
         <item>
+            <title>PurpleMark 1.3.2459</title>
+            <pubDate>Tue, 22 Sep 2026 17:22:18 +0000</pubDate>
+            <sparkle:version>2459.85e1b963</sparkle:version>
+            <sparkle:shortVersionString>1.3.2459</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<a href="https://github.com/bronty13/phantomlives-releases/releases/tag/purplemark-v1.3.2459">Release notes for PurpleMark 1.3.2459</a>]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purplemark-v1.3.2459/PurpleMark-1.3.2459.dmg"
+                sparkle:edSignature="+3JsxygI10DZCfqSrbPtniMoku9tSbICWW8XSeXImtKH6dUwfd0iESKgXm0cEHf+NleMIaGVCLx4PKADf/i9Ag==" length="5087273"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PurpleMark 1.2.1623</title>
             <pubDate>Mon, 27 Jul 2026 21:03:33 +0000</pubDate>
             <sparkle:version>1623.42426216</sparkle:version>
