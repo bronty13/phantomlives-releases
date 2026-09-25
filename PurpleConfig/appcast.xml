@@ -17,5 +17,17 @@
           No release yet: this is the empty channel used to seed the public copy
           (see the header of Scripts/release.sh).
         -->
+        <item>
+            <title>PurpleConfig 1.1.2527</title>
+            <pubDate>Fri, 25 Sep 2026 00:11:44 +0000</pubDate>
+            <sparkle:version>2527.236484fd</sparkle:version>
+            <sparkle:shortVersionString>1.1.2527</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purpleconfig-v1.1.2527/PurpleConfig-1.1.2527.zip"
+                sparkle:edSignature="EWV7HW1mKc2/LDe9pwCVzwbKnAm3zAmqkfQpwdN1oN+q2jLlXPh3zWfXs0C2cZYuT8x+aLtmHVip5oXLTFS8AA==" length="10884381"
+                type="application/octet-stream" />
+        </item>
     </channel>
 </rss>
