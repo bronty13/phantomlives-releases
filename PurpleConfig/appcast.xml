@@ -18,6 +18,18 @@
           (see the header of Scripts/release.sh).
         -->
         <item>
+            <title>PurpleConfig 1.2.2540</title>
+            <pubDate>Fri, 25 Sep 2026 14:20:38 +0000</pubDate>
+            <sparkle:version>2540.9f97bf5e</sparkle:version>
+            <sparkle:shortVersionString>1.2.2540</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purpleconfig-v1.2.2540/PurpleConfig-1.2.2540.zip"
+                sparkle:edSignature="RJfUAioatXkAGZ9y6LwaVfDX/Eg0cGNDULRrB4mV6sP6mW1y+Lj6LkbxP2LswgcirBWKgmkL7AlobA3YRH4pBQ==" length="11131035"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PurpleConfig 1.1.2531</title>
             <pubDate>Fri, 25 Sep 2026 02:45:27 +0000</pubDate>
             <sparkle:version>2531.698f7155</sparkle:version>
