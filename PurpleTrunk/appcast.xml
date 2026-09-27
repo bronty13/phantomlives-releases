@@ -15,6 +15,18 @@
     <description>The brains of the ad-hoc Apple archiver: one person's Mac, archived once.</description>
     <language>en</language>
         <item>
+            <title>PurpleTrunk 1.0.2594</title>
+            <pubDate>Sun, 27 Sep 2026 12:30:20 +0000</pubDate>
+            <sparkle:version>2594.fea2dd6d</sparkle:version>
+            <sparkle:shortVersionString>1.0.2594</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purpletrunk-v1.0.2594/PurpleTrunk-1.0.2594.zip"
+                sparkle:edSignature="YgVvCqkxXaCB0lJvb8mITEgI+Dmdl6NpnhgsnVE3KImYYp/GF62HHTRiUCFCwW1sI1SkmD99YaN1Vm03kSeBCw==" length="95470282"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PurpleTrunk 1.0.2590</title>
             <pubDate>Sun, 27 Sep 2026 11:52:03 +0000</pubDate>
             <sparkle:version>2590.053f3866</sparkle:version>
