@@ -14,5 +14,17 @@
     <link>https://raw.githubusercontent.com/bronty13/phantomlives-releases/main/PurpleTrunk/appcast.xml</link>
     <description>The brains of the ad-hoc Apple archiver: one person's Mac, archived once.</description>
     <language>en</language>
+        <item>
+            <title>PurpleTrunk 1.0.2580</title>
+            <pubDate>Sun, 27 Sep 2026 00:52:43 +0000</pubDate>
+            <sparkle:version>2580.ce6e9061</sparkle:version>
+            <sparkle:shortVersionString>1.0.2580</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purpletrunk-v1.0.2580/PurpleTrunk-1.0.2580.zip"
+                sparkle:edSignature="qh0DL9G5bqIlok35ruCSW9pIPOy8P/nOk5m/LNPgkMW38Y+GXXLOjIEZcyVxhpwyzAOFryAmba10Ia24VLJLAQ==" length="98876548"
+                type="application/octet-stream" />
+        </item>
   </channel>
 </rss>
