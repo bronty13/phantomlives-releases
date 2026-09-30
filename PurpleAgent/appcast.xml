@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  PurpleAgent Sparkle appcast. The SOURCE OF TRUTH lives here in the monorepo; Scripts/release.sh
+  prepends each release and mirrors the file to the PUBLIC bronty13/phantomlives-releases repo,
+  which is what installed agents' sparkle-cli actually fetches.
+
+  It must NEVER be served from this monorepo: it is private, anonymous clients 404 against it,
+  and an install that cannot reach its feed is stranded permanently (docs/update-stranding.md).
+  No releases yet; release.sh prepends the first entry.
+-->
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>PurpleAgent</title>
+    <link>https://raw.githubusercontent.com/bronty13/phantomlives-releases/main/PurpleAgent/appcast.xml</link>
+    <description>The on-host collector that feeds PurpleVitals.</description>
+    <language>en</language>
+  </channel>
+</rss>
