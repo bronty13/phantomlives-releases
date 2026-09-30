@@ -15,6 +15,18 @@
     <description>The on-host collector that feeds PurpleVitals.</description>
     <language>en</language>
         <item>
+            <title>PurpleAgent 1.0.2693</title>
+            <pubDate>Wed, 30 Sep 2026 20:30:54 +0000</pubDate>
+            <sparkle:version>2693.c89bd75b</sparkle:version>
+            <sparkle:shortVersionString>1.0.2693</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purpleagent-v1.0.2693/PurpleAgent-1.0.2693.zip"
+                sparkle:edSignature="D9WZeRAY4Em2WF83cKetJMEaUhlI8pa5nsUMJLDEmkOFGc5VZlg7YgfkAjj/G2hwxYhqAtO1pvVd2s+GL9/JDw==" length="1691656"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PurpleAgent 1.0.2690</title>
             <pubDate>Wed, 30 Sep 2026 20:28:26 +0000</pubDate>
             <sparkle:version>2690.bca08326</sparkle:version>
