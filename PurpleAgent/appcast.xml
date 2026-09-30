@@ -14,5 +14,17 @@
     <link>https://raw.githubusercontent.com/bronty13/phantomlives-releases/main/PurpleAgent/appcast.xml</link>
     <description>The on-host collector that feeds PurpleVitals.</description>
     <language>en</language>
+        <item>
+            <title>PurpleAgent 1.0.2690</title>
+            <pubDate>Wed, 30 Sep 2026 20:28:26 +0000</pubDate>
+            <sparkle:version>2690.bca08326</sparkle:version>
+            <sparkle:shortVersionString>1.0.2690</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purpleagent-v1.0.2690/PurpleAgent-1.0.2690.zip"
+                sparkle:edSignature="TKbMAFzkmU0OQiMZmLGbO14F9qo3TTrlklylgvMCKYElQVSexucvS4ce6dYAI9Y2L6zBavx8aWGbED70D/wkAQ==" length="1691172"
+                type="application/octet-stream" />
+        </item>
   </channel>
 </rss>
