@@ -15,6 +15,18 @@
           signature pair is part of the trust chain. New entries go above old ones.
         -->
         <item>
+            <title>PurpleFlat 1.0.2668</title>
+            <pubDate>Wed, 30 Sep 2026 18:10:26 +0000</pubDate>
+            <sparkle:version>2668.5116c7da</sparkle:version>
+            <sparkle:shortVersionString>1.0.2668</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purpleflat-v1.0.2668/PurpleFlat-1.0.2668.zip"
+                sparkle:edSignature="zDL47XpqyLiEhPj+jA9JprO/XG5UOLpzNxpyIi/WmZ3UUfUCyZ9Lmh5uXVC4yGBlTSPytMu4y8Ud4LdfMmv1AQ==" length="3864984"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PurpleFlat 1.0.2363</title>
             <pubDate>Sat, 19 Sep 2026 12:20:27 +0000</pubDate>
             <sparkle:version>2363.142fad0d</sparkle:version>
