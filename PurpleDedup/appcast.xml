@@ -24,6 +24,18 @@
           skip versions.
         -->
         <item>
+            <title>PurpleDedup 1.0.2655</title>
+            <pubDate>Wed, 30 Sep 2026 15:34:32 +0000</pubDate>
+            <sparkle:version>2655.dfb993d5</sparkle:version>
+            <sparkle:shortVersionString>1.0.2655</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purplededup-v1.0.2655/PurpleDedup-1.0.2655.zip"
+                sparkle:edSignature="3O7nBc4kd3kMHK7nBp13XdEoqGTG90Tf0mBo3n23UErzAt2RH6tuIm6tUKpom6lSYtABxsqNkvJJHVusoQaiCQ==" length="7143580"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PurpleDedup 1.0.2652</title>
             <pubDate>Wed, 30 Sep 2026 15:23:24 +0000</pubDate>
             <sparkle:version>2652.f1f5484c</sparkle:version>
