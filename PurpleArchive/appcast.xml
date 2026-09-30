@@ -6,6 +6,18 @@
         <language>en</language>
         <!-- ITEMS -->
         <item>
+            <title>PurpleArchive 1.0.2666</title>
+            <pubDate>Wed, 30 Sep 2026 18:01:33 +0000</pubDate>
+            <sparkle:version>2666.ba43f9dd</sparkle:version>
+            <sparkle:shortVersionString>1.0.2666</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purplearchive-v1.0.2666/PurpleArchive-1.0.2666.dmg"
+                sparkle:edSignature="ZUtDtnERYZGNmSZb82qbyz/MtHWb1qQKZPOfA5klrowLLvNTMpBQ6HaiO86/nFiTuON/CPuHS+hDDVKnbzqJAg==" length="4197644"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PurpleArchive 1.0.1524</title>
             <pubDate>Tue, 14 Jul 2026 14:12:36 +0000</pubDate>
             <sparkle:version>1524.8e8a4f28</sparkle:version>
