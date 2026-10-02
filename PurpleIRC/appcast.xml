@@ -26,6 +26,18 @@
           absent — it has no EdDSA signature and predates the updater.)
         -->
         <item>
+            <title>PurpleIRC 1.0.2921</title>
+            <pubDate>Fri, 02 Oct 2026 22:38:53 +0000</pubDate>
+            <sparkle:version>2921.74a11a87</sparkle:version>
+            <sparkle:shortVersionString>1.0.2921</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purpleirc-v1.0.2921/PurpleIRC-1.0.2921.zip"
+                sparkle:edSignature="G1LGJ3n+wXzqqKLCLGKgK0jZFeArEo18Jd4bllVaCiC6P20cs0QDt3SCzdKZk4O4PY8rLUZHRlC5YfTOlmHeDg==" length="5706600"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PurpleIRC 1.0.2663</title>
             <pubDate>Wed, 30 Sep 2026 17:38:33 +0000</pubDate>
             <sparkle:version>2663.f11815f5</sparkle:version>
