@@ -19,6 +19,18 @@
           (No <item> yet — the first Sparkle-enabled build is the baseline.)
         -->
         <item>
+            <title>PurpleMirror 1.31.2827</title>
+            <pubDate>Fri, 02 Oct 2026 06:38:40 +0000</pubDate>
+            <sparkle:version>2827.007de4ed</sparkle:version>
+            <sparkle:shortVersionString>1.31.2827</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purplemirror-v1.31.2827/PurpleMirror-1.31.2827.zip"
+                sparkle:edSignature="h3Ok7tgYybPsHpz5wh447P/gYBWXa5aCAtDup/v8RBUFeYgqIS8S0SWseXycHUjcFk637GGUfsn5kL5AVvEwBg==" length="2617561"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PurpleMirror 1.30.2824</title>
             <pubDate>Fri, 02 Oct 2026 06:35:25 +0000</pubDate>
             <sparkle:version>2824.ae4474fa</sparkle:version>
