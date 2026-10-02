@@ -24,6 +24,18 @@
           the first real item.)
         -->
         <item>
+            <title>PurpleMonitor 1.0.2900</title>
+            <pubDate>Fri, 02 Oct 2026 21:35:44 +0000</pubDate>
+            <sparkle:version>2900.071eb7a2</sparkle:version>
+            <sparkle:shortVersionString>1.0.2900</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purplemonitor-v1.0.2900/PurpleMonitor-1.0.2900.zip"
+                sparkle:edSignature="1acvm0lzKShC2kzbkCUEeX5CW2lWF489p7epgH/WB8i1pSjoebvmqdqta19d42GyyfJNFrqtLbY5M+jeCKG0AQ==" length="5563944"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PurpleMonitor 1.0.2671</title>
             <pubDate>Wed, 30 Sep 2026 18:54:54 +0000</pubDate>
             <sparkle:version>2671.e0b6dc93</sparkle:version>
