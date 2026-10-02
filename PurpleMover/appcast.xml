@@ -14,5 +14,17 @@
           DO NOT hand-edit existing <item> entries — once shipped, an entry's version +
           signature pair is part of the trust chain. New entries go above old ones.
         -->
+        <item>
+            <title>PurpleMover 1.6.2812</title>
+            <pubDate>Fri, 02 Oct 2026 04:18:09 +0000</pubDate>
+            <sparkle:version>2812.22485bb0</sparkle:version>
+            <sparkle:shortVersionString>1.6.2812</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purplemover-v1.6.2812/PurpleMover-1.6.2812.zip"
+                sparkle:edSignature="AV7rGePL56RYJot8L/3UtCwud4luVrXofdC6zvXT879WA4o/wq2dlcT0VNIpJ/hLomu/hz+JSnBuqUlo6vkmDA==" length="4514615"
+                type="application/octet-stream" />
+        </item>
     </channel>
 </rss>
