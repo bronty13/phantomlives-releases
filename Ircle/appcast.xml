@@ -14,6 +14,18 @@
     <description>Auto-update feed for Ircle, the nostalgic Mac IRC client.</description>
     <language>en</language>
         <item>
+            <title>Ircle 1.0.2915</title>
+            <pubDate>Fri, 02 Oct 2026 22:01:28 +0000</pubDate>
+            <sparkle:version>2915.b3575eda</sparkle:version>
+            <sparkle:shortVersionString>1.0.2915</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/ircle-v1.0.2915/Ircle-1.0.2915.zip"
+                sparkle:edSignature="V4N9okGQxlPlox1vkuYGEsEeUjtzEcQQQBvv7BAETAHNykbLRibee2MY7BOOYfvrVNKiPdtA1TQeaDucdYBsDQ==" length="2696804"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>Ircle 1.0.2673</title>
             <pubDate>Wed, 30 Sep 2026 18:58:14 +0000</pubDate>
             <sparkle:version>2673.c80baf39</sparkle:version>
