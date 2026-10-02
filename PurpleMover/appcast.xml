@@ -15,6 +15,18 @@
           signature pair is part of the trust chain. New entries go above old ones.
         -->
         <item>
+            <title>PurpleMover 1.7.2822</title>
+            <pubDate>Fri, 02 Oct 2026 05:58:55 +0000</pubDate>
+            <sparkle:version>2822.2472ea34</sparkle:version>
+            <sparkle:shortVersionString>1.7.2822</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purplemover-v1.7.2822/PurpleMover-1.7.2822.zip"
+                sparkle:edSignature="bdKCEnke/SuZ9P0nNYwfoM3pkieQVAvqN4HKUqsXEaTxHBniS6KDm5jSdBZnhhtyLXxPavjfg7c8fZc/e6QEDw==" length="4992346"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PurpleMover 1.6.2812</title>
             <pubDate>Fri, 02 Oct 2026 04:18:09 +0000</pubDate>
             <sparkle:version>2812.22485bb0</sparkle:version>
