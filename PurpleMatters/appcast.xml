@@ -14,5 +14,17 @@
           DO NOT hand-edit existing <item> entries — once shipped, an entry's version +
           signature pair is part of the trust chain. New entries go above old ones.
         -->
+        <item>
+            <title>PurpleMatters 0.2.1.2986</title>
+            <pubDate>Sat, 03 Oct 2026 14:31:05 +0000</pubDate>
+            <sparkle:version>2986.72db8c3a</sparkle:version>
+            <sparkle:shortVersionString>0.2.1.2986</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purplematters-v0.2.1.2986/PurpleMatters-0.2.1.2986.zip"
+                sparkle:edSignature="XEcTVcxgsdgqvNlompIzE1a2mSvPmgJmeatC1nDcj0yvC02JV6BI8ziQJE6odpAFlUemTqY1BklxqHThyYMBCA==" length="3329159"
+                type="application/octet-stream" />
+        </item>
     </channel>
 </rss>
