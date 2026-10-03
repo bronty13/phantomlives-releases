@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  PurpleVitals Sparkle appcast — the SOURCE OF TRUTH lives here in the monorepo;
+  Scripts/release.sh appends each release and mirrors the file to the PUBLIC
+  bronty13/phantomlives-releases repo, which is what installed copies actually fetch.
+
+  It must NEVER be served from this monorepo: it is private, anonymous clients 404 against
+  it, and an install that cannot reach its feed is stranded permanently with no remote fix.
+  See docs/update-stranding.md. No releases yet — release.sh prepends the first entry.
+-->
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>PurpleVitals</title>
+    <link>https://raw.githubusercontent.com/bronty13/phantomlives-releases/main/PurpleVitals/appcast.xml</link>
+    <description>Live health for this Mac and every Mac in the fleet.</description>
+    <language>en</language>
+  </channel>
+</rss>
