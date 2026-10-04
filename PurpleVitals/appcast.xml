@@ -15,6 +15,18 @@
     <description>Live health for this Mac and every Mac in the fleet.</description>
     <language>en</language>
         <item>
+            <title>PurpleVitals 1.0.3058</title>
+            <pubDate>Sun, 04 Oct 2026 19:37:41 +0000</pubDate>
+            <sparkle:version>3058.1e713bfe</sparkle:version>
+            <sparkle:shortVersionString>1.0.3058</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purplevitals-v1.0.3058/PurpleVitals-1.0.3058.zip"
+                sparkle:edSignature="GKwbEnjPGsXcKLkr4KInt4CoMpMA8DNYWvQ6E5HqL09VDMXTYQdzYcPMhfBUcYWG+zYHDY4GS2LaKbJgDZTMAg==" length="2266164"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PurpleVitals 1.0.3017</title>
             <pubDate>Sun, 04 Oct 2026 00:05:27 +0000</pubDate>
             <sparkle:version>3017.72579c87</sparkle:version>
