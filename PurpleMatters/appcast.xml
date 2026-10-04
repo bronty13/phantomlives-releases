@@ -15,6 +15,18 @@
           signature pair is part of the trust chain. New entries go above old ones.
         -->
         <item>
+            <title>PurpleMatters 0.6.3029</title>
+            <pubDate>Sun, 04 Oct 2026 06:35:32 +0000</pubDate>
+            <sparkle:version>3029.66277b96</sparkle:version>
+            <sparkle:shortVersionString>0.6.3029</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purplematters-v0.6.3029/PurpleMatters-0.6.3029.zip"
+                sparkle:edSignature="/7OjuOaENaZTh77vUxbDVuIfRPyQC3k2uOK0Kl4PvIHdiXrFH6V6AKVDN6fGIYKeYZDfbJ9wiCaI1zbBCk7zDQ==" length="4073019"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PurpleMatters 0.5.3025</title>
             <pubDate>Sun, 04 Oct 2026 06:13:54 +0000</pubDate>
             <sparkle:version>3025.3daa2389</sparkle:version>
