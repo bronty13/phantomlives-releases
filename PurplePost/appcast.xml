@@ -14,5 +14,17 @@
           DO NOT hand-edit existing <item> entries — once shipped, an entry's version +
           signature pair is part of the trust chain. New entries go above old ones.
         -->
+        <item>
+            <title>PurplePost 1.0.3195</title>
+            <pubDate>Wed, 07 Oct 2026 22:14:38 +0000</pubDate>
+            <sparkle:version>3195.a40d0610</sparkle:version>
+            <sparkle:shortVersionString>1.0.3195</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purplepost-v1.0.3195/PurplePost-1.0.3195.zip"
+                sparkle:edSignature="AbFmGk76EWHdtXjGQ/45cr2Ghw64rmkGDLsjJ/ru3ocbAKg/SqVHhfeK5nJmfzqEc4m4VipO4f9KQi76tr2yAA==" length="2510685"
+                type="application/octet-stream" />
+        </item>
     </channel>
 </rss>
