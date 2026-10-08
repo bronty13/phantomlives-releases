@@ -15,6 +15,18 @@
           signature pair is part of the trust chain. New entries go above old ones.
         -->
         <item>
+            <title>PurplePost 1.1.3206</title>
+            <pubDate>Thu, 08 Oct 2026 03:08:54 +0000</pubDate>
+            <sparkle:version>3206.e465f304</sparkle:version>
+            <sparkle:shortVersionString>1.1.3206</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purplepost-v1.1.3206/PurplePost-1.1.3206.zip"
+                sparkle:edSignature="Dm5+Zegyb34SKkiCWLwKc78qLSfjRij5Anu1Ct1x4sAyIUarRxUtdjtIef81mYETXZTKi2IFbCvVIqsITX4VDQ==" length="2520067"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PurplePost 1.0.3197</title>
             <pubDate>Wed, 07 Oct 2026 22:39:05 +0000</pubDate>
             <sparkle:version>3197.5d799580</sparkle:version>
