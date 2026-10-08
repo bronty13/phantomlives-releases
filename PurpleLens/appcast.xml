@@ -15,6 +15,18 @@
           signature pair is part of the trust chain. New entries go above old ones.
         -->
         <item>
+            <title>PurpleLens 1.0.3218</title>
+            <pubDate>Thu, 08 Oct 2026 14:31:16 +0000</pubDate>
+            <sparkle:version>3218.1a3e343b</sparkle:version>
+            <sparkle:shortVersionString>1.0.3218</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purplelens-v1.0.3218/PurpleLens-1.0.3218.zip"
+                sparkle:edSignature="9Kv0cF9hLtxSn1I/HXNP15BCHWhrGqv3NJQj1hiZ60K1Dsae25TiQvhzCeb+VrDTaEujwzu4gflX88QEibNyAQ==" length="14909787"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PurpleLens 1.0.3187</title>
             <pubDate>Wed, 07 Oct 2026 20:02:03 +0000</pubDate>
             <sparkle:version>3187.c6ca4848</sparkle:version>
