@@ -15,6 +15,18 @@
           is part of the trust chain. New entries go above old ones.
         -->
         <item>
+            <title>PurpleSieve 1.0.3410</title>
+            <pubDate>Wed, 14 Oct 2026 15:03:42 +0000</pubDate>
+            <sparkle:version>3410.f28132a5</sparkle:version>
+            <sparkle:shortVersionString>1.0.3410</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purplesieve-v1.0.3410/PurpleSieve-1.0.3410.zip"
+                sparkle:edSignature="/xsXDGfFO/DJPd8mSi/He6DvDqo2rCmEQe5wEiL0Q2HHQjzfcxpWWmezxWfIKJen4+hq6P7sKf2MdRYk5ZKtCw==" length="3509981"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PurpleSieve 1.0.3408</title>
             <pubDate>Wed, 14 Oct 2026 14:54:05 +0000</pubDate>
             <sparkle:version>3408.aa192e60</sparkle:version>
