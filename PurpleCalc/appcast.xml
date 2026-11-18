@@ -14,5 +14,17 @@
     <link>https://raw.githubusercontent.com/bronty13/phantomlives-releases/main/PurpleCalc/appcast.xml</link>
     <description>A faithful HP-15C for macOS. It runs the calculator's own ROM, which you import.</description>
     <language>en</language>
+        <item>
+            <title>PurpleCalc 0.2.3786</title>
+            <pubDate>Wed, 18 Nov 2026 18:09:31 +0000</pubDate>
+            <sparkle:version>3786.69e72338</sparkle:version>
+            <sparkle:shortVersionString>0.2.3786</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[See CHANGELOG.md for details.]]></description>
+            <enclosure
+                url="https://github.com/bronty13/phantomlives-releases/releases/download/purplecalc-v0.2.3786/PurpleCalc-0.2.3786.zip"
+                sparkle:edSignature="KKnx7E8u5w7zDtNR9GEweY0uVRkBzmO20goQ3+YNrbyT+ppkU0eUiI/h/oayo7GVua6mY2H9SlEaBRREnhkiBQ==" length="2008167"
+                type="application/octet-stream" />
+        </item>
   </channel>
 </rss>
