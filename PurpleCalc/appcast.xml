@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  PurpleCalc Sparkle appcast — the SOURCE OF TRUTH lives here in the monorepo; the shared release
+  script (../release-sparkle-app.sh) prepends each release and mirrors the file to the PUBLIC
+  bronty13/phantomlives-releases repo, which is what installed copies actually fetch.
+
+  It must NEVER be served from this monorepo: it is private, anonymous clients 404 against it, and
+  an install that cannot reach its feed is stranded permanently with no remote fix.
+  See docs/update-stranding.md. Cut releases from the repo root: ./release-on-mini.sh PurpleCalc
+-->
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>PurpleCalc</title>
+    <link>https://raw.githubusercontent.com/bronty13/phantomlives-releases/main/PurpleCalc/appcast.xml</link>
+    <description>A faithful HP-15C for macOS. It runs the calculator's own ROM, which you import.</description>
+    <language>en</language>
+  </channel>
+</rss>
